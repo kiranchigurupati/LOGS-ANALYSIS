@@ -45,6 +45,7 @@ def error_percent(query3):
         err_prc = results[result][1]
         print("%s--%.1f %%" % (date, err_prc))
 
+
 if __name__ == "__main__":
     print("THE LIST OF POPULAR ARTICLES ARE:")
     popular_article(data1)
